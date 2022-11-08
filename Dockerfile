@@ -2,7 +2,7 @@
 FROM alexandzors/caddy as builder
 LABEL maintainer "Morph1904 <morph1904@gmail.com>"
 
-RUN /usr/bin/caddy --version
+#RUN /usr/bin/caddy --version
 
 # Compile Vue into production
 FROM node:8.16-alpine as nodebuild
